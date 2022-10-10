@@ -6,7 +6,7 @@ def primes(number_of_primes):
     num = 2
     while len(list) < number_of_primes:
         prime = True
-        for x in range(1,num/2 + 1):
+        for x in range(1,num//2 + 1):
             if num % x == 0:
                 prime = False
         if prime:
